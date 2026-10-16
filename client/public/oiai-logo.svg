@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 450" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Cyan brand gradients -->
+    <linearGradient id="oiai-blade-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00b4d8" />
+      <stop offset="50%" stop-color="#0096c7" />
+      <stop offset="100%" stop-color="#0077b6" />
+    </linearGradient>
+    <linearGradient id="oiai-blade-2" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0077b6" />
+      <stop offset="60%" stop-color="#0096c7" />
+      <stop offset="100%" stop-color="#48cae4" />
+    </linearGradient>
+    <filter id="oiai-shadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#0077b6" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Central Emblem with 6 geometric swirling blades (60-deg rotational symmetry) -->
+  <g transform="translate(200, 175)" filter="url(#oiai-shadow)">
+    <!-- Blade 1 (0 deg) -->
+    <g transform="rotate(0)">
+      <path d="M 0,-25 L 45,-90 L 105,-72 L 75,-20 L 35,-15 Z" fill="url(#oiai-blade-1)" />
+      <path d="M 45,-90 L 105,-72 L 75,-20 Z" fill="url(#oiai-blade-2)" opacity="0.9" />
+    </g>
+
+    <!-- Blade 2 (60 deg) -->
+    <g transform="rotate(60)">
+      <path d="M 0,-25 L 45,-90 L 105,-72 L 75,-20 L 35,-15 Z" fill="url(#oiai-blade-1)" />
+      <path d="M 45,-90 L 105,-72 L 75,-20 Z" fill="url(#oiai-blade-2)" opacity="0.9" />
+    </g>
+
+    <!-- Blade 3 (120 deg) -->
+    <g transform="rotate(120)">
+      <path d="M 0,-25 L 45,-90 L 105,-72 L 75,-20 L 35,-15 Z" fill="url(#oiai-blade-1)" />
+      <path d="M 45,-90 L 105,-72 L 75,-20 Z" fill="url(#oiai-blade-2)" opacity="0.9" />
+    </g>
+
+    <!-- Blade 4 (180 deg) -->
+    <g transform="rotate(180)">
+      <path d="M 0,-25 L 45,-90 L 105,-72 L 75,-20 L 35,-15 Z" fill="url(#oiai-blade-1)" />
+      <path d="M 45,-90 L 105,-72 L 75,-20 Z" fill="url(#oiai-blade-2)" opacity="0.9" />
+    </g>
+
+    <!-- Blade 5 (240 deg) -->
+    <g transform="rotate(240)">
+      <path d="M 0,-25 L 45,-90 L 105,-72 L 75,-20 L 35,-15 Z" fill="url(#oiai-blade-1)" />
+      <path d="M 45,-90 L 105,-72 L 75,-20 Z" fill="url(#oiai-blade-2)" opacity="0.9" />
+    </g>
+
+    <!-- Blade 6 (300 deg) -->
+    <g transform="rotate(300)">
+      <path d="M 0,-25 L 45,-90 L 105,-72 L 75,-20 L 35,-15 Z" fill="url(#oiai-blade-1)" />
+      <path d="M 45,-90 L 105,-72 L 75,-20 Z" fill="url(#oiai-blade-2)" opacity="0.9" />
+    </g>
+
+    <!-- Outer rim circle for subtle depth -->
+    <circle cx="0" cy="0" r="48" fill="#ffffff" stroke="#0096c7" stroke-width="2.5" />
+
+    <!-- Center Ai text -->
+    <text x="0" y="16" font-family="'DM Sans', 'Inter', -apple-system, sans-serif" font-size="52" font-weight="900" fill="#0b2540" text-anchor="middle" letter-spacing="-1">Ai</text>
+  </g>
+
+  <!-- Typography: Odisha Institute of Ai -->
+  <text x="200" y="340" font-family="'DM Sans', 'Inter', -apple-system, sans-serif" font-size="28" font-weight="800" fill="#0b2540" text-anchor="middle" letter-spacing="0.5">Odisha Institute of Ai</text>
+  <text x="200" y="368" font-family="'DM Sans', 'Inter', -apple-system, sans-serif" font-size="12" font-weight="700" fill="#0096c7" text-anchor="middle" letter-spacing="3.5">BHUBANESWAR • 2026-27</text>
+</svg>
